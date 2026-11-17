@@ -1,0 +1,41 @@
+WEEK 2 — STUDENT GRADE CALCULATOR TEST CASES
+
+Run: python grade_calculator.py
+
+1. Name=Priya, marks=95
+   Expected: Grade A and excellent-work message.
+
+2. Name=Priya, marks=85
+   Expected: Grade B and "Very Good! Keep it up!" message.
+
+3. Name=Rahul, marks=75
+   Expected: Grade C and good-effort message.
+
+4. Name=Aman, marks=65
+   Expected: Grade D and passed/work-harder message.
+
+5. Name=Neha, marks=45
+   Expected: Grade F and do-not-give-up message.
+
+6. Name=Test, marks=100
+   Expected: Grade A (upper boundary accepted).
+
+7. Name=Test, marks=0
+   Expected: Grade F (lower boundary accepted).
+
+8. Name=Test, marks=-1
+   Expected: Rejected; asks for marks from 0 to 100 again.
+
+9. Name=Test, marks=101
+   Expected: Rejected; asks for marks from 0 to 100 again.
+
+10. Name=Test, marks=hello
+    Expected: Rejected; asks for a number again without crashing.
+
+11. Name=(blank)
+    Expected: Rejected; asks for student name again.
+
+12. Name=Test, marks=89.5
+    Expected: Grade B (decimal marks are supported).
+
+Record actual results after running each case. The project uses manual test cases and does not require an external testing package.
